@@ -1,14 +1,14 @@
-package com.iAKIN.latest_point.ui.tools;
+package com.iAKIN.latest_point.ui.basvuru;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ToolsViewModel extends ViewModel {
+public class BasvuruViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ToolsViewModel() {
+    public BasvuruViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is tools fragment");
     }

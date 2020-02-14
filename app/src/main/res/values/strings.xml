@@ -2,22 +2,24 @@
     <string name="app_name">latest_point</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_title">Latest Point</string>
     <string name="nav_header_subtitle">ibrahim-akin@msn.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_kitap">Kitap</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_basvuru">Başvuru</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
-    <string name="formBaslangic">Başlangıç : </string>
-    <string name="formDegisim">Değişim : </string>
-    <string name="formIsim">İsim : </string>
-    <string name="formSayfa">Sayfa : </string>
-    <string name="formLink">Link : </string>
+    <string name="baslangic">Başlangıç : </string>
+    <string name="degisim">Değişim : </string>
+    <string name="isim">İsim : </string>
+    <string name="sayfa">Sayfa : </string>
+    <string name="kacinci">Kaçıncı : </string>
+    <string name="dakika">Dakika : </string>
+    <string name="link">Link : </string>
 
 </resources>

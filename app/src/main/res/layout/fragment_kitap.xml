@@ -8,6 +8,8 @@
         android:layout_height="match_parent"
         android:columnCount="2"
         android:rowCount="9"
+        android:layout_margin="@dimen/form_margin"
+        android:padding="@dimen/form_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -15,12 +17,12 @@
             android:id="@+id/ktpIsim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/formIsim"
+            android:text="@string/isim"
             android:layout_margin="@dimen/form_margin"
              />
         <TextView
             android:id="@+id/ktpIsim_tv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Deneme"
             android:layout_margin="@dimen/form_margin"
@@ -29,26 +31,33 @@
             android:id="@+id/ktpSayfa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/formSayfa"
+            android:text="@string/sayfa"
             android:layout_margin="@dimen/form_margin"
             />
         <TextView
             android:id="@+id/ktpSayfa_tv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="32"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
             android:layout_margin="@dimen/form_margin"
             />
         <TextView
             android:id="@+id/ktpLink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/formLink"
+            android:text="@string/link"
             android:layout_margin="@dimen/form_margin"
+            android:layout_column="0"
             />
         <TextView
             android:id="@+id/ktpLink_tv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="www"
             android:layout_margin="@dimen/form_margin"
@@ -57,12 +66,12 @@
             android:id="@+id/ktpBaslangic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/formBaslangic"
+            android:text="@string/baslangic"
             android:layout_margin="@dimen/form_margin"
             />
         <TextView
             android:id="@+id/ktpBaslangic_tv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tarih"
             android:layout_margin="@dimen/form_margin"
@@ -71,17 +80,18 @@
             android:id="@+id/ktpDegisim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/formDegisim"
+            android:text="@string/degisim"
             android:layout_margin="@dimen/form_margin"
             />
         <TextView
             android:id="@+id/ktpDegisim_tv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tarih"
             android:layout_margin="@dimen/form_margin"
             />
-        <TextView/>
-        <Button android:/>
+        <Button
+            android:text="Sil"
+            android:layout_column="1"/>
     </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
