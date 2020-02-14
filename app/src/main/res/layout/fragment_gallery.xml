@@ -16,24 +16,72 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/formIsim"
+            android:layout_margin="@dimen/form_margin"
              />
         <TextView
             android:id="@+id/ktpIsim_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Yapay Zeka"
+            android:text="Deneme"
+            android:layout_margin="@dimen/form_margin"
             />
         <TextView
             android:id="@+id/ktpSayfa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/formSayfa"
+            android:layout_margin="@dimen/form_margin"
             />
         <TextView
             android:id="@+id/ktpSayfa_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="32"
+            android:layout_margin="@dimen/form_margin"
             />
+        <TextView
+            android:id="@+id/ktpLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formLink"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView
+            android:id="@+id/ktpLink_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="www"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView
+            android:id="@+id/ktpBaslangic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formBaslangic"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView
+            android:id="@+id/ktpBaslangic_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarih"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView
+            android:id="@+id/ktpDegisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formDegisim"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView
+            android:id="@+id/ktpDegisim_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarih"
+            android:layout_margin="@dimen/form_margin"
+            />
+        <TextView/>
+        <Button android:/>
     </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

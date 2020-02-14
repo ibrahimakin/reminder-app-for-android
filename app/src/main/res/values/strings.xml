@@ -14,7 +14,10 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
+    <string name="formBaslangic">Başlangıç : </string>
+    <string name="formDegisim">Değişim : </string>
     <string name="formIsim">İsim : </string>
     <string name="formSayfa">Sayfa : </string>
+    <string name="formLink">Link : </string>
 
 </resources>
