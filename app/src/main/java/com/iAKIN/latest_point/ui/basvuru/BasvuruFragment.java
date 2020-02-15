@@ -23,13 +23,13 @@ public class BasvuruFragment extends Fragment {
         toolsViewModel =
                 ViewModelProviders.of(this).get(BasvuruViewModel.class);
         View root = inflater.inflate(R.layout.fragment_basvuru, container, false);
-        final TextView textView = root.findViewById(R.id.text_tools);
+        /*final TextView textView = root.findViewById(R.id.text_tools);
         toolsViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
             }
-        });
+        });*/
         return root;
     }
 }

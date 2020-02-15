@@ -14,12 +14,15 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
-    <string name="baslangic">Başlangıç : </string>
-    <string name="degisim">Değişim : </string>
     <string name="isim">İsim : </string>
     <string name="sayfa">Sayfa : </string>
     <string name="kacinci">Kaçıncı : </string>
     <string name="dakika">Dakika : </string>
+    <string name="basvuru">Başvuru : </string>
+    <string name="son">Son Başvuru : </string>
+    <string name="sonuc">Sonuç : </string>
     <string name="link">Link : </string>
+    <string name="baslangic">Başlangıç : </string>
+    <string name="degisim">Değişim : </string>
 
 </resources>
