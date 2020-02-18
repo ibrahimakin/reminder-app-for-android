@@ -10,7 +10,7 @@ public class VideoViewModel extends ViewModel {
 
     public VideoViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is video fragment");
     }
 
     public LiveData<String> getText() {
